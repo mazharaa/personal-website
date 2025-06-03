@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/global.css" />
+    <title>Azhar</title>
+  </head>
+  <body>
+    <div class="max-w-6xl mx-auto">
+      <main class="flex justify-center min-h-screen py-15 px-10 gap-7">
+        <section class="grid grid-rows-2 mr-3">
+          <div>
+            <div>
+              <h2>Hey there, Azhar here!</h2>
+              <h3>
+                I'm a
+                <span class="greeting gradient-font"></span>
+              </h3>
+            </div>
+          </div>
+          <div>
+            <nav class="nav-container relative">
+              <div class="active-bg"></div>
+              <div class="nav-btn" data-section="works">Works</div>
+              <div class="nav-btn" data-section="about">About</div>
+              <div class="nav-btn" data-section="contact">Contact</div>
+            </nav>
+          </div>
+        </section>
+        <section>
+          <div class="content-container">
+            <!-- Works-Section -->
+            <div id="works-content" class="content-section active">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <!-- Linktree project -->
+                <div class="project-card">
+                  <a
+                    href="https://4yns4t.csb.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      class="project-image"
+                      src="./assets/works/linktree.png"
+                      alt="linktree"
+                    />
+                  </a>
+                  <div class="emblem">Linktree</div>
+                </div>
+                <!-- Fetch data project -->
+                <div class="project-card">
+                  <a
+                    href="https://v4k9z8.csb.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      class="project-image"
+                      src="./assets/works/dragon-ball-characters.png"
+                      alt="dragon-ball"
+                    />
+                  </a>
+                  <div class="emblem">Dragon Ball Character</div>
+                </div>
+                <!-- Personal web project -->
+                <div class="project-card">
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <img
+                      class="project-image"
+                      src="./assets/works/personal-website.png"
+                      alt="personal-website"
+                    />
+                  </a>
+                  <div class="emblem">Personal Web</div>
+                </div>
+              </div>
+            </div>
+            <!-- About-Section -->
+            <div id="about-content" class="content-section">
+              <div class="mt-24">
+                <h1 class="leading-relaxed">
+                  Currently joining Batch 9 Devscale. Bootcamp for chasing my
+                  career to be a <span class="greeting gradient-font"></span>
+                </h1>
+              </div>
+            </div>
+            <!-- Contact-Section -->
+            <div id="contact-content" class="content-section">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <!-- Email -->
+                <div class="contact-card">
+                  <div>
+                    <a
+                      href="mailto:mazharaa32@gmail.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        class="contact-image"
+                        src="./assets/contacts/gmail.png"
+                        alt="email"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <!-- Github -->
+                <div class="contact-card">
+                  <div>
+                    <a
+                      href="https://github.com/mazharaa"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        class="contact-image"
+                        src="./assets/contacts/github.png"
+                        alt="github"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <!-- Linkedin -->
+                <div class="contact-card">
+                  <div class="items-center">
+                    <a
+                      href="https://linked.in/muhammadazharabdulaziz"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        class="contact-image"
+                        src="./assets/contacts/linkedin.png"
+                        alt="linkedin"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <!-- Instagram -->
+                <div class="contact-card">
+                  <div class="items-center">
+                    <a
+                      href="https://instagram.com/mazharaa"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        class="contact-image"
+                        src="./assets/contacts/instagram.png"
+                        alt="instagram"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./dist/main.js"></script>
+  </body>
+</html>
